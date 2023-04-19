@@ -1,0 +1,11 @@
+version: 2
+
+models: 
+  - name: questionnaire_questionnaire_analytics 
+    description: "Analytics table for questionnaire_questionnaire"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
